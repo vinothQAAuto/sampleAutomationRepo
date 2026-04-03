@@ -18,7 +18,7 @@ public class sampel1JavaProject {
 
 		WebDriver driver = new FirefoxDriver();
 
-	//	driver.get("https://www.selenium.dev/downloads/");
+	
 
 		// driver.getTitle();
 
