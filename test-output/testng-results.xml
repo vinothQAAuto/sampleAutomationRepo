@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="10" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-04T10:25:13 IST" name="Default suite" finished-at="2026-08-04T10:25:19 IST" duration-ms="6548">
+    <groups>
+    </groups>
+    <test started-at="2026-08-04T10:25:13 IST" name="Default test" finished-at="2026-08-04T10:25:19 IST" duration-ms="6548">
+      <class name="selenium_AllControls.alertsTest">
+        <test-method is-config="true" signature="createSession()[pri:0, instance:selenium_AllControls.alertsTest@5ffead27]" started-at="2026-08-04T10:25:13 IST" name="createSession" finished-at="2026-08-04T10:25:18 IST" duration-ms="4901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSession -->
+        <test-method signature="promptDisplayAndInputTest()[pri:0, instance:selenium_AllControls.alertsTest@5ffead27]" started-at="2026-08-04T10:25:18 IST" name="promptDisplayAndInputTest" finished-at="2026-08-04T10:25:19 IST" duration-ms="1381" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.switchTo()" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.switchTo()" because "driver" is null
+at org.openqa.selenium.support.ui.ExpectedConditions$28.apply(ExpectedConditions.java:792)
+at org.openqa.selenium.support.ui.ExpectedConditions$28.apply(ExpectedConditions.java:788)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at selenium_AllControls.alertsTest.promptDisplayAndInputTest(alertsTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptDisplayAndInputTest -->
+        <test-method is-config="true" signature="quitSession()[pri:0, instance:selenium_AllControls.alertsTest@5ffead27]" started-at="2026-08-04T10:25:19 IST" name="quitSession" finished-at="2026-08-04T10:25:19 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSession -->
+      </class> <!-- selenium_AllControls.alertsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

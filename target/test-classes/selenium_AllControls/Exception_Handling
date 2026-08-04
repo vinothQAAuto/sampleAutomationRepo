@@ -1,0 +1,32 @@
+
+What is an Exception ?
+
+Exception is a problem which occurs during the execution of the program and 
+when an Exception is occur the program execution will stop and the rest of the code in the program wont be executed.
+
+Example for Exception:
+
+Lets say, we have 5 lines in our Program as shown below and if an exception occurs at 3rd line, 
+the program execution will stop and the remaining lines i.e. 4th and 5th in our program wont be executed.
+
+	Statement1;
+	Statement2;
+	Statement3;  //Exception occurred at this 3rd line
+	Statement4;  //This line wont be executed
+	Statement5;  //This line wont be executed
+
+
+Different types of Exceptions in Selenium WebDriver 
+
+From the above examples, you understand what is an Exception and what happens when it occurs during program execution. 
+Now, I will explain all the different types of Exceptions, we may face while working with Selenium WebDriver.
+
+Though there are many WebDriver Exceptions in Selenium, the below are the different WebDriver Exceptions that we commonly face while working with Selenium:
+	NoSuchElementException      -  unable to find the web element on the web page.
+	ElementNotVisibleException
+	NoSuchFrameException
+	NoAlertPresentException
+	NoSuchWindowException
+	SessionNotFoundException
+	StaleElementReferenceException
+
